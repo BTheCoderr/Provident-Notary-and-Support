@@ -19,6 +19,9 @@ const Header = () => {
           <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
             <a href="#about">About</a>
             <a href="#services">Services</a>
+            <a href="#why-choose-us">Why Choose Us</a>
+            <a href="#process">Process</a>
+            <a href="#pricing">Pricing</a>
             <a href="#faq">FAQ</a>
             <a href="#contact">Contact</a>
           </nav>
