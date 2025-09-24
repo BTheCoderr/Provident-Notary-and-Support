@@ -1,6 +1,6 @@
-/* Hero Section Styles - Clean Professional Design Like Swain Paralegals */
+/* Hero Section Styles - Exact Swain Paralegals Match */
 .hero {
-  background-color: #0E1925;
+  background-color: #ffffff;
   padding: 120px 0 80px 0;
   min-height: 80vh;
 }
@@ -20,18 +20,18 @@
 }
 
 .hero-problem {
-  font-size: 1.2rem;
-  color: #ffffff;
+  font-size: 1.1rem;
+  color: #666666;
   margin-bottom: 1.5rem;
   font-style: italic;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .hero-value {
-  font-size: 2.2rem;
-  color: #ffffff;
+  font-size: 2.4rem;
+  color: #2c3e50;
   margin-bottom: 2rem;
-  line-height: 1.3;
+  line-height: 1.2;
   font-weight: 600;
 }
 
@@ -41,31 +41,31 @@
 }
 
 .hero-service-box {
-  background-color: #0E1925;
-  padding: 25px 30px;
-  border-radius: 8px;
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 0;
   margin-bottom: 1.5rem;
-  text-align: center;
+  text-align: left;
   border: 2px solid #A67D32;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  box-shadow: none;
 }
 
 .hero-service-box h2 {
-  font-size: 1.8rem;
-  color: #ffffff;
+  font-size: 1.6rem;
+  color: #2c3e50;
   margin-bottom: 0.5rem;
   font-weight: bold;
 }
 
 .hero-service-box p {
-  font-size: 1.1rem;
-  color: #ffffff;
+  font-size: 1rem;
+  color: #666666;
   margin: 0;
 }
 
 .hero-benefit {
-  font-size: 1.1rem;
-  color: #ffffff;
+  font-size: 1rem;
+  color: #666666;
   margin: 0;
 }
 
@@ -83,13 +83,15 @@
   text-decoration: underline;
   margin-bottom: 0.5rem;
   font-style: italic;
+  font-weight: 500;
 }
 
 .testimonial-text {
   font-size: 1rem;
-  color: #ffffff;
-  line-height: 1.5;
+  color: #2c3e50;
+  line-height: 1.6;
   margin: 0;
+  font-style: italic;
 }
 
 .hero-keywords {
@@ -98,8 +100,8 @@
 }
 
 .hero-keywords p {
-  font-size: 1.2rem;
-  color: #ffffff;
+  font-size: 1.1rem;
+  color: #2c3e50;
   margin: 0.5rem 0;
   font-weight: 500;
 }
