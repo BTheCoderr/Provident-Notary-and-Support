@@ -6,6 +6,7 @@ const Contact = () => {
     firstName: '',
     lastName: '',
     email: '',
+    phone: '',
     company: '',
     message: ''
   });
@@ -17,11 +18,42 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
-    alert('Thank you for your message! We will contact you soon to schedule your appointment.');
+    
+    // Create form data for Netlify
+    const form = new FormData();
+    form.append('form-name', 'contact');
+    form.append('firstName', formData.firstName);
+    form.append('lastName', formData.lastName);
+    form.append('email', formData.email);
+    form.append('phone', formData.phone);
+    form.append('company', formData.company);
+    form.append('message', formData.message);
+    
+    try {
+      // Submit to Netlify
+      await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(form).toString()
+      });
+      
+      // Reset form
+      setFormData({
+        firstName: '',
+        lastName: '',
+        email: '',
+        phone: '',
+        company: '',
+        message: ''
+      });
+      
+      alert('Thank you for your message! We will contact you soon to schedule your appointment.');
+    } catch (error) {
+      console.error('Form submission error:', error);
+      alert('There was an error submitting your message. Please try again or email us directly at info@providentnotary.com');
+    }
   };
 
   return (
@@ -42,7 +74,7 @@ const Contact = () => {
         <div className="contact-content">
           <div className="contact-form-section">
             <h2>Have a question? Contact us.</h2>
-            <p>Email <strong>info@providentnotary.com</strong> or submit your question below.</p>
+            <p>Email <strong>info@providentnotary.com</strong> or call <strong>(555) 123-4567</strong> or submit your question below.</p>
             
             <form className="contact-form" onSubmit={handleSubmit} name="contact" method="POST" data-netlify="true">
               <input type="hidden" name="form-name" value="contact" />
@@ -81,6 +113,18 @@ const Contact = () => {
                   value={formData.email}
                   onChange={handleChange}
                   required
+                />
+              </div>
+              
+              <div className="form-group">
+                <label htmlFor="phone">Phone Number</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  value={formData.phone}
+                  onChange={handleChange}
+                  placeholder="(555) 123-4567"
                 />
               </div>
               
