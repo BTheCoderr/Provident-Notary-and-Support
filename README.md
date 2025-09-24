@@ -1,70 +1,158 @@
-# Getting Started with Create React App
+# Provident Notary & Support Co. Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A professional notary services website built with React, featuring a clean design with navy backgrounds and white text.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- **Professional Design**: Clean, modern layout with navy and gold color scheme
+- **Mobile Responsive**: Optimized for all devices
+- **Contact Form**: Netlify Forms integration for lead generation
+- **FAQ Section**: Expandable FAQ to answer common client questions
+- **Real Testimonials**: Client reviews and testimonials
+- **Service Information**: Detailed service offerings and pricing
+- **Business Hours**: Clear contact information and availability
 
-### `npm start`
+## 🛠️ Setup Instructions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
+- Node.js (version 14 or higher)
+- npm or yarn
+- Git
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Local Development
 
-### `npm test`
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/BTheCoderr/Provident-Notary-and-Support.git
+   cd Provident-Notary-and-Support
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-### `npm run build`
+3. **Start development server**
+   ```bash
+   npm start
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. **Open in browser**
+   - Navigate to `http://localhost:3000`
+   - The website will automatically reload when you make changes
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Build for Production
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm run build
+```
 
-### `npm run eject`
+This creates a `build` folder with optimized files for production.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🌐 Deployment Options
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Option 1: Netlify (Recommended)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Connect to Netlify**
+   - Go to [netlify.com](https://netlify.com)
+   - Sign up/login and connect your GitHub account
+   - Select this repository
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Configure Build Settings**
+   - Build command: `npm run build`
+   - Publish directory: `build`
+   - Node version: `18` (in Environment Variables)
 
-## Learn More
+3. **Custom Domain** (Optional)
+   - Add your custom domain in Netlify dashboard
+   - Configure DNS settings with your domain provider
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Option 2: Vercel
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. **Connect to Vercel**
+   - Go to [vercel.com](https://vercel.com)
+   - Import this GitHub repository
+   - Deploy automatically
 
-### Code Splitting
+### Option 3: GitHub Pages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. **Install gh-pages**
+   ```bash
+   npm install --save-dev gh-pages
+   ```
 
-### Analyzing the Bundle Size
+2. **Add to package.json**
+   ```json
+   "homepage": "https://yourusername.github.io/Provident-Notary-and-Support",
+   "scripts": {
+     "predeploy": "npm run build",
+     "deploy": "gh-pages -d build"
+   }
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+3. **Deploy**
+   ```bash
+   npm run deploy
+   ```
 
-### Making a Progressive Web App
+## 📝 Content Customization
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Update Contact Information
+- Edit `src/components/Contact.js` for phone numbers, email, hours
+- Update business hours and emergency availability
 
-### Advanced Configuration
+### Modify Services
+- Edit `src/components/Services.js` to update service offerings
+- Add or remove service categories as needed
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Update FAQ
+- Edit `src/components/FAQ.js` to modify questions and answers
+- Add new FAQ items in the `faqData` array
 
-### Deployment
+### Change Colors/Branding
+- Update color variables in CSS files
+- Replace logo files in `public/` directory
+- Modify `public/favicon.svg` for custom favicon
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📧 Form Configuration
 
-### `npm run build` fails to minify
+The contact form uses Netlify Forms. To configure:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Deploy to Netlify** (forms work automatically)
+2. **Access form submissions** in Netlify dashboard under "Forms"
+3. **Set up email notifications** in Netlify form settings
+4. **Add spam protection** with reCAPTCHA if needed
+
+## 🔧 Technical Details
+
+- **Framework**: React 18
+- **Styling**: CSS Modules
+- **Forms**: Netlify Forms
+- **Deployment**: Optimized for static hosting
+- **Performance**: Lighthouse score optimized
+- **SEO**: Meta tags and semantic HTML
+
+## 📱 Mobile Optimization
+
+- Responsive design for all screen sizes
+- Touch-friendly navigation
+- Optimized images and fonts
+- Fast loading times
+
+## 🎯 SEO Features
+
+- Semantic HTML structure
+- Meta tags for social sharing
+- Alt text for images
+- Clean URL structure
+- Fast loading times
+
+## 📞 Support
+
+For technical support or customization requests, contact:
+- Email: info@providentnotary.com
+- Phone: (555) 123-4567
+
+## 📄 License
+
+This project is proprietary to Provident Notary & Support Co.

@@ -74,7 +74,9 @@ const Contact = () => {
         <div className="contact-content">
           <div className="contact-form-section">
             <h2>Have a question? Contact us.</h2>
-            <p>Email <strong>info@providentnotary.com</strong> or call <strong>(555) 123-4567</strong> or submit your question below.</p>
+            <p>Email <strong>info@providentnotary.com</strong> or call <strong><a href="tel:+15551234567">(555) 123-4567</a></strong> for immediate assistance.</p>
+            <p><strong>Business Hours:</strong> Monday-Friday 8:00 AM - 6:00 PM | Saturday 9:00 AM - 2:00 PM</p>
+            <p><strong>Emergency Services:</strong> Available 24/7 for urgent notarizations</p>
             
             <form className="contact-form" onSubmit={handleSubmit} name="contact" method="POST" data-netlify="true">
               <input type="hidden" name="form-name" value="contact" />
