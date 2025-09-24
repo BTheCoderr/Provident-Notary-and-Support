@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-section">
             <div className="footer-logo">
-              <img src="/provident-logo.svg" alt="Provident Notary & Support Co." className="footer-logo-image" />
+              <img src="/provident-logo-primary.png?v=2" alt="Provident Notary & Support Co." className="footer-logo-image" />
             </div>
             <p className="footer-tagline">
               Professional notary services you can trust for all your document authentication needs.
