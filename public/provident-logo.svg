@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" role="img" aria-label="Provident Notary & Support Co. logo">
   <!-- Lighthouse in circle -->
-  <circle cx="100" cy="100" r="70" stroke="#A67D32" stroke-width="8" fill="none"/>
-  <rect x="90" y="70" width="20" height="60" fill="#A67D32"/>
-  <polygon points="85,70 115,70 100,45" fill="#A67D32"/>
+  <circle cx="100" cy="100" r="70" stroke="#ffffff" stroke-width="8" fill="none"/>
+  <rect x="90" y="70" width="20" height="60" fill="#ffffff"/>
+  <polygon points="85,70 115,70 100,45" fill="#ffffff"/>
   <!-- optional window -->
   <rect x="95" y="85" width="10" height="15" fill="transparent"/>
   
   <!-- Wordmark -->
-  <text x="200" y="105" font-family="Georgia, serif" font-size="60" fill="#A67D32" font-weight="bold">
+  <text x="200" y="105" font-family="Georgia, serif" font-size="60" fill="#ffffff" font-weight="bold">
     PROVIDENT
   </text>
-  <text x="200" y="145" font-family="Georgia, serif" font-size="28" fill="#A67D32" letter-spacing="4">
+  <text x="200" y="145" font-family="Georgia, serif" font-size="28" fill="#ffffff" letter-spacing="4">
     NOTARY & SUPPORT CO.
   </text>
 </svg>
