@@ -1,7 +1,7 @@
 /* Services Section Styles */
 .services {
   padding: 80px 0;
-  background-color: #f8f7f2;
+  background-color: #ffffff;
 }
 
 .services-intro {
@@ -9,7 +9,7 @@
 }
 
 .services-intro h2 {
-  color: #6C8D4F;
+  color: #0E1925;
   font-size: 2.2rem;
   font-weight: bold;
 }
@@ -44,7 +44,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #f5f5f5 0%, #e9ecef 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #ffffff 100%);
 }
 
 .courtroom-icon,
@@ -55,7 +55,7 @@
 }
 
 .service-category h3 {
-  color: #6C8D4F;
+  color: #0E1925;
   font-size: 1.4rem;
   margin: 20px 20px 15px 20px;
   font-weight: bold;
@@ -70,14 +70,14 @@
 }
 
 .service-item h4 {
-  color: #6C8D4F;
+  color: #0E1925;
   font-size: 1rem;
   margin-bottom: 5px;
   font-weight: bold;
 }
 
 .service-item p {
-  color: #5a7a3d;
+  color: #A67D32;
   font-size: 0.95rem;
   margin: 0;
   line-height: 1.5;

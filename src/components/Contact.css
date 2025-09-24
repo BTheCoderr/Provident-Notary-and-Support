@@ -1,10 +1,10 @@
 /* Contact Section Styles */
 .contact {
-  background-color: #f8f7f2;
+  background-color: #ffffff;
 }
 
 .contact-banner {
-  background-color: #f8f7f2;
+  background-color: #ffffff;
   padding: 60px 0;
   text-align: center;
 }
@@ -20,7 +20,7 @@
 }
 
 .banner-text h2 {
-  color: #6C8D4F;
+  color: #0E1925;
   font-size: 2.2rem;
   font-weight: bold;
   text-align: left;
@@ -31,14 +31,14 @@
 }
 
 .banner-cta h3 {
-  color: #6C8D4F;
+  color: #0E1925;
   font-size: 1.8rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
 
 .banner-cta p {
-  color: #6C8D4F;
+  color: #0E1925;
   font-size: 1rem;
   line-height: 1.6;
   margin: 0;
@@ -52,14 +52,14 @@
 }
 
 .contact-form-section h2 {
-  color: #6C8D4F;
+  color: #0E1925;
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
 
 .contact-form-section p {
-  color: #6C8D4F;
+  color: #0E1925;
   font-size: 1.1rem;
   margin-bottom: 2rem;
 }
@@ -84,7 +84,7 @@
 }
 
 .form-group label {
-  color: #6C8D4F;
+  color: #0E1925;
   font-weight: 600;
   margin-bottom: 8px;
   font-size: 1rem;
@@ -104,8 +104,8 @@
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #6C8D4F;
-  box-shadow: 0 0 0 3px rgba(108, 141, 79, 0.1);
+  border-color: #0E1925;
+  box-shadow: 0 0 0 3px rgba(14, 25, 37, 0.1);
 }
 
 .form-group textarea {
@@ -114,8 +114,8 @@
 }
 
 .submit-button {
-  background-color: #6C8D4F;
-  color: #ffffff;
+  background-color: #0E1925;
+  color: #A67D32;
   padding: 12px 30px;
   border: none;
   border-radius: 8px;
@@ -127,7 +127,7 @@
 }
 
 .submit-button:hover {
-  background-color: #5a7a3d;
+  background-color: #0A141D;
 }
 
 .contact-image-section {

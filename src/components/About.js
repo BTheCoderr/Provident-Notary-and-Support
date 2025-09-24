@@ -9,11 +9,11 @@ const About = () => {
           <div className="about-image">
             <div className="about-placeholder">
               <svg viewBox="0 0 300 200" className="lady-justice-icon">
-                <rect x="20" y="20" width="260" height="160" fill="#f8f7f2" stroke="#D4AF37" strokeWidth="3" rx="5"/>
-                <circle cx="150" cy="80" r="30" fill="none" stroke="#D4AF37" strokeWidth="3"/>
-                <path d="M140 80 L145 85 L155 75" stroke="#D4AF37" strokeWidth="3" fill="none"/>
-                <rect x="130" y="120" width="40" height="40" fill="#D4AF37" rx="5"/>
-                <path d="M120 160 L150 140 L180 160" fill="#D4AF37"/>
+                <rect x="20" y="20" width="260" height="160" fill="#f8f7f2" stroke="#A67D32" strokeWidth="3" rx="5"/>
+                <circle cx="150" cy="80" r="30" fill="none" stroke="#A67D32" strokeWidth="3"/>
+                <path d="M140 80 L145 85 L155 75" stroke="#A67D32" strokeWidth="3" fill="none"/>
+                <rect x="130" y="120" width="40" height="40" fill="#A67D32" rx="5"/>
+                <path d="M120 160 L150 140 L180 160" fill="#A67D32"/>
                 <text x="150" y="190" fontSize="12" fill="#1a3a4a" fontFamily="serif" textAnchor="middle">JUSTICE</text>
               </svg>
             </div>

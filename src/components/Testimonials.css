@@ -1,6 +1,6 @@
 /* Testimonials Section Styles */
 .testimonials {
-  background-color: #6C8D4F;
+  background-color: #0E1925;
   color: #ffffff;
   position: relative;
   overflow: hidden;
@@ -13,7 +13,7 @@
   left: 0;
   right: 0;
   height: 50px;
-  background: linear-gradient(45deg, #f8f7f2 0%, #f8f7f2 50%, transparent 50%);
+  background: linear-gradient(45deg, #0E1925 0%, #0E1925 50%, transparent 50%);
   transform: skewY(-2deg);
   transform-origin: top left;
 }
@@ -49,14 +49,14 @@
 }
 
 .review-text strong {
-  color: #ffffff;
+  color: #A67D32;
   font-weight: bold;
 }
 
 .certificate-section {
-  background-color: #6C8D4F;
+  background-color: #0E1925;
   padding: 40px 0;
-  border-top: 2px solid #5a7a3d;
+  border-top: 2px solid #0A141D;
 }
 
 .certificate-content {
@@ -68,10 +68,10 @@
 }
 
 .certificate-badge {
-  background-color: #5a7a3d;
+  background-color: #0A141D;
   padding: 30px;
   border-radius: 15px;
-  border: 2px solid #ffffff;
+  border: 2px solid #A67D32;
   max-width: 800px;
   text-align: center;
 }
@@ -85,10 +85,9 @@
 
 .certificate-subtitle {
   font-size: 1rem;
-  color: #ffffff;
+  color: #A67D32;
   font-style: italic;
   margin-bottom: 1.5rem;
-  opacity: 0.9;
 }
 
 .certificate-text {
@@ -99,7 +98,7 @@
 }
 
 .certificate-text strong {
-  color: #ffffff;
+  color: #A67D32;
   font-weight: 700;
 }
 
@@ -111,7 +110,7 @@
 }
 
 .certificate-recognition strong {
-  color: #ffffff;
+  color: #A67D32;
   font-weight: bold;
 }
 

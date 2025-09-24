@@ -1,6 +1,6 @@
 /* About Section Styles */
 .about {
-  background-color: #f8f7f2;
+  background-color: #ffffff;
   padding: 80px 0;
 }
 
@@ -40,7 +40,7 @@
 .feature-icon {
   width: 40px;
   height: 40px;
-  background-color: #D4AF37;
+  background-color: #A67D32;
   color: #ffffff;
   border-radius: 50%;
   display: flex;
@@ -73,13 +73,13 @@
 .about-placeholder {
   width: 350px;
   height: 250px;
-  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #ffffff 100%);
   border-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  border: 3px solid #D4AF37;
+  border: 3px solid #A67D32;
 }
 
 .certificate-icon {

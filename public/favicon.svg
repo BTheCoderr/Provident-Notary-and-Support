@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" role="img" aria-label="Provident favicon">
+  <!-- Gold circle -->
+  <circle cx="75" cy="75" r="55" stroke="#A67D32" stroke-width="6" fill="none"/>
+  
+  <!-- Gold lighthouse -->
+  <rect x="65" y="55" width="20" height="50" fill="#A67D32"/>
+  <polygon points="60,55 90,55 75,35" fill="#A67D32"/>
+  
+  <!-- Window cutout -->
+  <rect x="70" y="65" width="10" height="12" fill="transparent"/>
+</svg>

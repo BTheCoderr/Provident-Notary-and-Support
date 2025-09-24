@@ -32,7 +32,7 @@ a {
 
 /* Focus styles for accessibility */
 *:focus {
-  outline: 2px solid #D4AF37;
+  outline: 2px solid #A67D32;
   outline-offset: 2px;
 }
 

@@ -20,14 +20,14 @@
 body {
   font-family: 'Georgia', 'Times New Roman', serif;
   line-height: 1.6;
-  color: #6C8D4F;
-  background-color: #f8f7f2;
+  color: #0E1925;
+  background-color: #ffffff;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Georgia', 'Times New Roman', serif;
   font-weight: bold;
-  color: #6C8D4F;
+  color: #0E1925;
 }
 
 h1 {
@@ -65,25 +65,25 @@ p {
 }
 
 .cta-button.primary {
-  background-color: #6C8D4F;
-  color: #ffffff;
-  border-color: #6C8D4F;
+  background-color: #0E1925;
+  color: #A67D32;
+  border-color: #0E1925;
 }
 
 .cta-button.primary:hover {
-  background-color: #5a7a3d;
-  border-color: #5a7a3d;
+  background-color: #0A141D;
+  border-color: #0A141D;
 }
 
 .cta-button.secondary {
   background-color: transparent;
-  color: #6C8D4F;
-  border-color: #6C8D4F;
+  color: #0E1925;
+  border-color: #0E1925;
 }
 
 .cta-button.secondary:hover {
-  background-color: #6C8D4F;
-  color: #ffffff;
+  background-color: #0E1925;
+  color: #A67D32;
 }
 
 /* Section Spacing */

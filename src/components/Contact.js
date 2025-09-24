@@ -117,15 +117,15 @@ const Contact = () => {
           <div className="contact-image-section">
             <div className="gavel-image">
               <svg viewBox="0 0 300 400" className="gavel-icon">
-                <rect x="20" y="20" width="260" height="360" fill="#f5f5f5" stroke="#D4AF37" strokeWidth="2" rx="10"/>
+                <rect x="20" y="20" width="260" height="360" fill="#f5f5f5" stroke="#A67D32" strokeWidth="2" rx="10"/>
                 <rect x="120" y="60" width="60" height="200" fill="#8B4513" rx="5"/>
-                <rect x="110" y="50" width="80" height="30" fill="#D4AF37" rx="5"/>
+                <rect x="110" y="50" width="80" height="30" fill="#A67D32" rx="5"/>
                 <rect x="130" y="40" width="40" height="20" fill="#B8941F" rx="3"/>
                 <rect x="50" y="280" width="200" height="40" fill="#8B4513" rx="5"/>
-                <rect x="60" y="290" width="180" height="20" fill="#D4AF37" rx="3"/>
+                <rect x="60" y="290" width="180" height="20" fill="#A67D32" rx="3"/>
                 <rect x="70" y="300" width="160" height="10" fill="#B8941F" rx="2"/>
                 <circle cx="150" cy="320" r="15" fill="#8B4513"/>
-                <circle cx="150" cy="320" r="10" fill="#D4AF37"/>
+                <circle cx="150" cy="320" r="10" fill="#A67D32"/>
                 <circle cx="150" cy="320" r="5" fill="#B8941F"/>
               </svg>
             </div>

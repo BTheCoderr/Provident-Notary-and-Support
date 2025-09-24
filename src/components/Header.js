@@ -13,7 +13,7 @@ const Header = () => {
       <div className="container">
         <div className="header-content">
           <div className="logo">
-            <img src="/providentLogo.png" alt="Provident Notary & Support Co." className="logo-image" />
+            <img src="/provident-logo-primary.png" alt="Provident Notary & Support Co." className="logo-image" />
           </div>
           
           <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
